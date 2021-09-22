@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const cors = require("cors");
 
 var app = express();
 
@@ -18,6 +19,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+/* TO-DO: 실제 서비스 웹 도메인 주소 결정되면 해당 도메인 주소만 허용하도록 설정 변경하기! */
+app.use(cors());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

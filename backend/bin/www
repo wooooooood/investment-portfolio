@@ -7,12 +7,14 @@
 var app = require('../app');
 var debug = require('debug')('backend:server');
 var http = require('http');
+var https = require('https');
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '3001');
+var portHttps = 3010;
 app.set('port', port);
 
 /**
@@ -22,10 +24,19 @@ app.set('port', port);
 var server = http.createServer(app);
 
 /**
+ * Create HTTPS server.
+ */
+
+var serverHttps = https.createServer(app);
+
+/**
  * Listen on provided port, on all network interfaces.
  */
 
 server.listen(port);
+/* 실제 HTTPS localhost 접속 가능한 환경 구축을 위한 인증서(SSL) 필요! */
+/* TO-DO: certificate 발급받아 localhost에서 HTTPS 네트워크 접속 가능하게 만들기(options parameter 활용) */
+// serverHttps.listen(portHttps);
 server.on('error', onError);
 server.on('listening', onListening);
 
