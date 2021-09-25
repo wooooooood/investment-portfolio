@@ -26,7 +26,8 @@
     "test": "jest",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "prepare": "cd .. && husky install frontend/.husky"
   },
   "eslintConfig": {
     "extends": "react-app",
@@ -70,6 +71,7 @@
     "url-loader": "^4.1.1",
     "webpack": "^5.53.0",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.2.1"
+    "webpack-dev-server": "^4.2.1",
+    "husky": "^7.0.0"
   }
 }
