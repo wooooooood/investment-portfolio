@@ -28,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "echo \"Hello husky!\"",
+      "pre-commit": "echo 'Hello husky!'",
       "pre-push": "echo \"Pre-Push git hook Test!\""
     }
   }
