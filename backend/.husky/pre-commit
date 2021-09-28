@@ -1,4 +1,0 @@
-# .husky/pre-commit
-# ...
-cd backend
-npm test
