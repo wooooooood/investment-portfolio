@@ -1,2 +1,25 @@
 {
+  "projectName": "investment-portfolio",
+  "projectOwner": "ready-techie",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "AnneMayor",
+      "name": "Lee Anne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15176192?v=4",
+      "profile": "https://medium.com/@pranne1224",
+      "contributions": [
+        "doc",
+        "ideas",
+        "infra",
+        "code"
+      ]
+    }
+  ],
+  "files": [
+    "README.md"
+  ],
+  "contributorsPerLine": 7
 }
