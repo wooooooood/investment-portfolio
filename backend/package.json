@@ -8,7 +8,7 @@
     "backend": "",
     "dev": "",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "cd .. && husky install backend/.husky"
   },
   "dependencies": {
     "concurrently": "^6.2.1",
@@ -25,5 +25,11 @@
     "http-proxy-middleware": "^2.0.1",
     "husky": "^7.0.2",
     "jest": "^27.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 'Hello husky!'",
+      "pre-push": "echo 'Pre-Push git hook Test!'"
+    }
   }
 }
