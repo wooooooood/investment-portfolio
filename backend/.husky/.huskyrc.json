@@ -1,8 +1,6 @@
 {
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "pre-push": "echo \"Pre-Push git hook Test!\""
-    }
+  "hooks": {
+    "pre-commit": "npm test",
+    "pre-push": "echo \"Pre-Push git hook Test!\""
   }
 }
