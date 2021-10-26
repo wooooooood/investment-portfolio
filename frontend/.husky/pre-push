@@ -1,0 +1,4 @@
+#!/bin/sh
+# .husky/pre-push
+cd frontend
+echo \'This is pre-push test by husky module!\'

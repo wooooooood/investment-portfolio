@@ -1,0 +1,5 @@
+#!/bin/sh
+# .husky/pre-commit
+# npm test => 실제 개발 프로젝트 들어가면 써야할 git hook
+cd frontend
+echo \'Hello husky!\'
