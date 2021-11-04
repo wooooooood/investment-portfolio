@@ -1,0 +1,37 @@
+[
+  {
+    "term": "KOSPI",
+    "argumentation": "Korea Composite Stock Price Index 한국 주가종합지수",
+    "description": "1980년 1월 4일(기준시점)의 시가총액 대비 비교시점의 시가총액이 얼마나 올랐는지를 나타낸다. 코스피 지수가 3000이 넘었다는 사실은 약 30년만에 상장된 모든 기업의 시가총액의 합이 30배 올랐음을 의미한다. 주로 대기업 등이 상장되어 있어 주가변동이 적다.",
+    "example": ["삼성전자", "네이버"],
+    "link": ""
+  },
+  {
+    "term": "KOSDAQ",
+    "argumentation": "Korean Securities Dealers Automated Quotations",
+    "description": "1997년 10월을 기준시점으로 시가총액 대비 비교시점의 시가총액이 얼마나 올랐는지를 나타낸다. 주로 벤처기업이 상장되어 있어 주가변동이 크다.",
+    "example": ["압타바이오"],
+    "link": ""
+  },
+  {
+    "term": "S&P index",
+    "argumentation": "Standard & Poor's, S&P500",
+    "description": "뉴욕증권거래소에 상장된 기업 중 500개 기업의 주가 지수를 의미한다. 스탠다드앤푸어스 에서 관리해서 이런 이름이 붙었다.",
+    "example": ["테슬라"],
+    "link": ""
+  },
+  {
+    "term": "NASDAQ",
+    "argumentation": "National Association of Securities Dealers Automated Quotations",
+    "description": "코스닥이 벤치마킹한 개념으로, 벤처기업들 또한 주식시장에 쉽게 진입할 수 있는 미국의 증권거래소이다.",
+    "example": ["넷플릭스"],
+    "link": ""
+  },
+  {
+    "term": "DOW index",
+    "argumentation": "다우 지수, Dow30, 다우존스 지수",
+    "description": "미국을 대표하는 상징적인 30개 종목의 주가 평균",
+    "example": ["애플"],
+    "link": ""
+  }
+]
